@@ -7,7 +7,7 @@ This library contains 5 mixins to simplify working with breakpoints.
 You can use either yarn or npm:
 
 ```
-npm install modern-responsive
+npm install scss-modern-responsive
 ```
 
 ## Why use this library
@@ -21,10 +21,10 @@ There are two ways how to import the mixins.
 
 ```scss
 // import all mixins
-@import "~modern-responsive/lib/from";
+@import "~modern-responsive";
 
 // or import the mixin that you need
-@import "~modern-responsive";
+@import "~modern-responsive/lib/from";
 ```
 
 Let's say you've set the following breakpoints:
