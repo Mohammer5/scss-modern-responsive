@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jan-Gerke Salomon",
-  "license": "ISC"
+  "author": "Jan-Gerke Salomon (duderewtrew+npm@gmail.com)",
+  "license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Mohammer5/scss-modern-responsive.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Mohammer5/scss-modern-responsive/issues"
+	},
+	"homepage": "https://github.com/Mohammer5/scss-modern-responsive.git#readme"
 }
