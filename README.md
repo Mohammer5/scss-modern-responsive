@@ -53,3 +53,16 @@ You can use the mixins like this:
 	}
 }
 ```
+
+If you're working on a feature that needs a special breakpoint,
+you can use simple pixel values as well:
+
+```scss
+@import "~modern-responsive/lib/from";
+
+.special-element {
+	@include from(1337px) {
+	  color: pink;
+	}
+}
+```
