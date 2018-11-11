@@ -1,0 +1,5 @@
+@mixin above($below, $environment = screen) {
+	@media #{$screen} and (max-width: #{$below - 1px}) {
+		@content;
+	}
+}

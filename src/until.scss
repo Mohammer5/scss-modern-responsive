@@ -1,0 +1,5 @@
+@mixin until($until, $environment = screen) {
+	@media #{$screen} and (max-width: #{$until}) {
+		@content;
+	}
+}

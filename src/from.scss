@@ -1,0 +1,5 @@
+@mixin from($from, $environment = screen) {
+	@media #{$screen} and (min-width: #{$from}) {
+		@content;
+	}
+}
