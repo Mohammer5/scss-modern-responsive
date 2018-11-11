@@ -1,6 +1,6 @@
 {
   "name": "scss-modern-responsive",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Some mixins to simplify working with responsive web design",
   "main": "index.scss",
   "scripts": {

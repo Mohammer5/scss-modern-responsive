@@ -52,13 +52,13 @@ You can use the mixins like this:
 .headline {
   font-size: 12px;
 
-	@include from($tablet) {
-	  font-size: 16px;
-	}
+  @include from($tablet) {
+    font-size: 16px;
+  }
 
-	@include from($desktop) {
-	  font-size: 20px;
-	}
+  @include from($desktop) {
+    font-size: 20px;
+  }
 }
 ```
 
@@ -69,8 +69,8 @@ you can use simple pixel values as well:
 @import "~modern-responsive/lib/from";
 
 .special-element {
-	@include from(1337px) {
-	  color: pink;
-	}
+  @include from(1337px) {
+    color: pink;
+  }
 }
 ```
