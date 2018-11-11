@@ -15,6 +15,14 @@ npm install scss-modern-responsive
 I created these mixins to increase the readability of SCSS code.
 The mixins work well with well named variables.
 
+## Available mixins:
+
+1. above
+2. below
+3. between
+4. from
+5. until
+
 ## Usage
 
 There are two ways how to import the mixins.
